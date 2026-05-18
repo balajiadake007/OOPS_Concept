@@ -11,7 +11,7 @@ int main()
 
     for(i = 2; i < n; i++)
     {
-        if(n % 2== 0)
+        if(n % i== 0)
         {
             cout << "Not Prime number";
             break;
